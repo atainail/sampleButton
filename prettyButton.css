@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(34, 34, 102);
+    
+}
+
+section {
+    
+}
+
+button {
+    background-color: rgb(34, 34, 102);
+    color: orange;
+    padding: 1em 2em;
+    
+    border-color: orange;
+    transition: .3s;
+    letter-spacing: 4px;
+}
+
+button:hover {
+    color:white;
+    border-color: white;
+    box-shadow: 0 0.5em 0.5em -.4em white;
+    transform: translateY(-.25em);
+    cursor: pointer;
+}
